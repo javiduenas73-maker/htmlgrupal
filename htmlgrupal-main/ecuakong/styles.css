@@ -1,11 +1,20 @@
 
-
 body {
     font-family: Arial, sans-serif;
     background-color: #75191c;
     margin: 0;
     display: flex;
     flex-direction: column;
+    /* Establecer una imagen de fondo para todo el body */
+
+    background-image: url(Ecuador-y-Honduras-profundizan-sus-relaciones-comerciales-.png);
+    background-size: cover;  /* Asegura que la imagen cubra todo el fondo */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+
+
+
 }
 
 header {
@@ -42,8 +51,8 @@ nav a:hover {
 }
 
 .logo img {
-    width: 80px;
-    border-radius: 50%;
+    width: 100px;
+    border-radius: 100%;
 }
 .titulo {
     text-align: center;
@@ -70,14 +79,14 @@ h2{
 .intro {
     margin: auto;              
     padding: 25px 30px;
-    background-image: url(img/Ecuador-y-Honduras-profundizan-sus-relaciones-comerciales-.png);   
     background-repeat: no-repeat; 
     background-position: center center;
     background-size: cover ;
-    color: white;
+    background-color: #5a1f1f;
+    color: rgb(216, 210, 210);
     text-shadow: 0 5px 5px black;
-    border-radius: 12px;
-    box-shadow: 0 5px 20px black;
+    border-radius: 12px ;
+    box-shadow: 0 5px 20px rgb(14, 13, 13);
     text-align: center;
     
 }
@@ -130,10 +139,6 @@ h3{
     font-size: 16px;
     
 }
-
-
-
-
 
 .footer {
     background-color: #5a1f1f;
@@ -188,4 +193,11 @@ h3{
 .payments img {
     height: 28px;
     margin-right: 10px;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 70px;
+    font-size: 14px;
+    color: #020202;
 }
